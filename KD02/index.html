@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balsošanas kontrole</title>
+</head>
+<body>
+    <h1>Balsošanas kontrole</h1>
+
+    <label for="vards">Vārds: </label>
+    <input type="text" id="vards" value="Jānis" disabled><br><br>
+    
+    <label for="vecums">Vecums: </label>
+    <input type="number" id="vecums" value="18"><br><br>
+    
+    <label for="irPilsonis">Pilsonis: </label>
+    <input type="checkbox" id="irPilsonis" checked><br><br>
+    
+    <button onClick="balsošana()">Pārbaudīt balsošanas tiesības</button>
+    <h3 id="balsošanasRezultats"></h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
